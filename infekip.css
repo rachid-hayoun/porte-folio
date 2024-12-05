@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(177, 158, 135);
+}
+.bigtitle{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+img{
+    width: 230px;
+    height: 215px;
+}
+.equipe_photo{
+    display: flex;
+    justify-content: space-around;
+}
+.infostaff{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger; 
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 18px}
+    }
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;}
+    }

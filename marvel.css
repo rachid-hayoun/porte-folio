@@ -1,0 +1,120 @@
+body{
+    background-image: url(banniermarvel.png);
+    background-size: cover;}
+.tete{
+    display: flex;
+    justify-content:space-around;
+    font-family: Quantum;
+    font-size: 25px;
+    color:white;}
+.banhier{
+    display: flex;
+    justify-content:center ;
+    height: 200px;
+}
+.ca{
+    margin-left: 650px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 920px;
+    white-space: pre-line;
+    color: white;
+    text-align: center;}
+.img{
+    margin-right: 300px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 850px;
+    color: white;
+    text-align: left;
+    white-space: pre-line;
+    text-align: center;}
+.thor{
+    margin-left: 650px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 920px;
+    white-space: pre-line;
+    color: white;
+    text-align: center;
+}
+
+.hulk{
+    margin-right: 300px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 850px;
+    color: white;
+    text-align: left;
+    white-space: pre-line;
+    text-align: center;
+}
+.bp{
+    margin-left: 650px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 920px;
+    white-space: pre-line;
+    color: white;
+    text-align: center;}
+.bw{
+    margin-right: 300px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 850px;
+    color: white;
+    text-align: left;
+    white-space: pre-line;
+    text-align: center;
+}
+.spider{
+    margin-left: 650px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 920px;
+    white-space: pre-line;
+    color: white;
+    text-align: center;
+}
+.thanos{
+    margin-right: 300px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    border-radius: 30px;
+    height: 400px;
+    width: 850px;
+    color: white;
+    text-align: left;
+    white-space: pre-line;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 18px}
+    }
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;}
+    }

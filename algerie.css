@@ -1,0 +1,54 @@
+body{
+background-color:antiquewhite;
+    background-size: cover;}
+.tete{
+    display: flex;
+    justify-content:space-around;
+    font-family: Quantum;
+    font-size: 25px;
+    color:white;}
+img{
+    width: 500px;
+    height:220px;
+}
+.s{
+    width: 500px;
+    height: 220px;}
+.a{
+    width: 500px;
+    height: 220px;
+}
+.one{
+display: flex;
+justify-content: space-between;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius:20px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius:20px;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius:20px;
+}
+.bann{
+    width: 700px;
+    height: 200px;
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 18px}
+    }
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;}
+    }

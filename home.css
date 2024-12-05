@@ -1,0 +1,150 @@
+body{
+    background-image: url('ploop.jpg');
+    background-size:100%;
+    font-family: Quantum;
+    font-size: 25px;
+    color:white;}
+.texte{
+    font-size:55px;
+    text-align: center;
+    white-space: pre-line;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);}
+.tete{
+    display: flex;
+    justify-content:space-around}
+.rea{
+    color:white}
+.gh{
+    color:white}
+.rh{margin-top: auto;
+    font-size: 85px;
+    margin-bottom: 0%;}
+.cv{
+    color:white;}
+.a{
+   color:rgb(255, 255, 255); 
+   text-shadow:
+    2px 2px 0px black,  
+    -2px 2px 0px black,  
+    2px -2px 0px black,  
+    -2px -2px 0px black; }
+.ctcs{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+
+    display: flex;
+    justify-content: center;
+    text-shadow:
+    2px 2px 0px black,  
+    -2px 2px 0px black,  
+    2px -2px 0px black,  
+    -2px -2px 0px black;}
+.tel{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;}
+.tt{
+    font-size: 24px;
+    font-family: Quantum;
+    display: flex;
+    justify-content: center;
+    text-shadow:
+    2px 2px 0px black,  
+    -2px 2px 0px black,  
+    2px -2px 0px black,  
+    -2px -2px 0px black;
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .texte {
+        font-size: 20px;
+    }
+
+    .rh {
+        font-size: 40px;
+    }
+
+    .ctcs {
+        font-size: 20px;
+    }
+
+    .tel {
+        font-size: 18px;
+    }
+
+    .tt {
+        font-size: 16px;
+    }
+
+    .tete {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    .texte {
+        font-size: 30px;
+    }
+
+    .rh {
+        font-size: 60px;
+    }
+
+    .ctcs {
+        font-size: 25px;
+    }
+
+    .tel {
+        font-size: 22px;
+    }
+
+    .tt {
+        font-size: 18px;
+    }
+
+    .tete {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        font-size: 25px;
+    }
+
+    .texte {
+        font-size: 55px;
+    }
+
+    .rh {
+        font-size: 85px;
+    }
+
+    .ctcs {
+        font-size: 35px;
+    }
+
+    .tel {
+        font-size: 30px;
+    }
+
+    .tt {
+        font-size: 24px;
+    }
+
+    .tete {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

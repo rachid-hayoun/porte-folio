@@ -1,0 +1,46 @@
+body {
+    background-image: url(banmusee.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.A {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: center;
+    gap: 20px;
+}
+.C {
+    width: 220px;
+    height: 220px;
+    background-image: url(cadre.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+}
+
+.J {
+    width: 120px;
+    height: 180px;
+    object-fit: contain;
+}
+.V,.F,.P,.O{
+    width: 110px;
+    height: 170px; 
+}
+.B{
+    display: flex;
+    flex-wrap:wrap;  
+    justify-content: space-around; 
+    align-items: center;
+    gap: 20px;
+}
